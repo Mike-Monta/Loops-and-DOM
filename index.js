@@ -90,7 +90,7 @@ function listPrimeNumbers(number){
     }  
 }
 
-const listOfFunctions = ['countDown() ','getSorted() ','showUnorderedList() ',
+const functionList = ['countDown() ','getSorted() ','showUnorderedList() ',
     'findOnPhonebook(name) ', 'listPrimeNumbers() '];
 let phonebook = [
     { name : 'Chris', number : '1549' },
@@ -106,4 +106,4 @@ let phonebook = [
 const showHeader = document.createElement('header');
 const body = document.body;
 body.prepend(showHeader);
-showHeader.textContent = "Type on the console:    "+listOfFunctions;
+showHeader.textContent = "Type on the console:    " + functionList;
